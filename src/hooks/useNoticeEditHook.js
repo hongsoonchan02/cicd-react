@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { useNoticeDetailQuery } from "../query/NoticeDetailQuery";
+import { useNoticeDetailQuery } from "./query/NoticeDetailQuery";
 
 
 export const useNoticeEditHook = () => {
