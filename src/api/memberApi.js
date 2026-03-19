@@ -1,4 +1,4 @@
-import axiosInstance from "./AxiosInstance"
+import axiosInstance from "./axiosInstance";
 
 // 회원가입
 export const registerMemberApi = async (formData) => {
