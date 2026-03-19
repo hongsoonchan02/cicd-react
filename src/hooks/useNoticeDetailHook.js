@@ -2,7 +2,7 @@ import { useParams, useNavigate } from "react-router-dom"
 import useUserStore from "../store/userStore";
 import { useState } from "react";
 import { useNoticeDeleteMutation } from "../query/noticeDeleteMutation";
-import { useNoticeDetailQuery } from "../query/NoticeDetailQuery";
+import { useNoticeDetailQuery } from "../query/noticeDetailQueryoticeDetailQuery";
 
 
 export const useNoticeDetailHook = () => {
